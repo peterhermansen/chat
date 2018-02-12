@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/hermansenph/chat/issues"
   },
-  "homepage": "https://github.com/hermansenph/chat#readme"
+  "homepage": "https://github.com/hermansenph/chat#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
 }
