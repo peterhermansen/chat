@@ -12,7 +12,9 @@ function createApp() {
 
   io
     .on('connection', (socket) => (
-      console.log('A user has connected')
+      socket.on('chat message', (msg) => {
+        console.log(msg)
+      })
     ))
 
   http
